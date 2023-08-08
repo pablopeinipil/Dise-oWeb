@@ -1,0 +1,937 @@
+﻿<!DOCTYPE html>
+
+<html lang="es"> <!-- se coloca lang para que cargue automaticamente en el idioma de origen elijamos -->
+
+<head>
+
+	<meta charset="UTF-8"/>    <!-- se coloca la codificacion utf-8 para el lenguaje español en html5 -->
+	 <meta name="viewport" content="width=device-width, initial-scale=1.0">  <!-- se coloca para definir segun el dispositivo la escala automatica de ancho -->
+		<!-- esta es la forma correcta de insertar la hoja de estilos en html con el nombre "estilo.css" -->
+		<link href="estilo.css" rel="stylesheet"/> 
+		<link href="navbar.css" rel="stylesheet"/>	
+			<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+			
+			<link href="aboutusimg.css" rel="stylesheet"/>	
+			<link href="formstyle.css" rel="stylesheet"/>	
+			<link href="estilotabla.css" rel="stylesheet"/>
+			<link href="programas.css" rel="stylesheet"/>
+			<link href="desplegable.css" rel="stylesheet"/>
+
+			<link href="//www.tailwindcss-animated.com/configurator.html"/>
+		
+		<link href="footer.css" rel="stylesheet"/>
+
+		
+		<title> Mi primer pagina web</title>  <!-- aqui se coloca el titulo de la pagina -->
+
+
+
+
+</head>
+
+
+
+
+
+<body>
+
+
+	<header>
+		<nav class="menu">
+			<div class="logoradio">
+					
+				<img src="./imagenes/logo radio brisa9.png" alt="">
+			
+			</div>
+
+
+			<div class="topnav" id="myTopnav">
+				
+				<a href="#inicio" class="active">Inicio</a>
+				<a href="#nosotros">Nosotros</a>
+				<a href="#programas">Programas</a>
+				<a href="#podcast">Podcast</a>
+				<a href="#entrevistasyvideos">Entrevistas y Videos</a>
+				<a href="#contacto">Contacto</a>
+				
+				<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+				  <i class="fa fa-bars"></i>
+				</a>
+			  </div>
+			</nav>
+
+		
+
+	</header>
+
+	<section>
+
+	<div class="contenedor1" id="inicio">
+		<div class="principal">
+
+			
+			<div class="contenedor-P">
+        
+				<h1> Bienvenidos, a Radio Brisa</h1>
+				<h3>Tu lugar de Buena Musica </h3>
+				<p>Phasellus laoreet felis eu velit finibus eleifend. Praesent pretium sem libero, quis dictum tortor faucibus sit amet. Fusce convallis, lorem vitae tincidunt aliquet, ipsum magna tincidunt leo, a molestie dui lorem consequat tellus</p>
+				
+				
+				<div class="Botonera">
+					<audio id="track">
+						<source src="https://01.solumedia.com.ar:8844/stream" type="audio/mpeg" />
+					  </audio>
+					 
+					  <input type="checkbox" class="btn-select" id="btnToggle" />
+						<label class="btn-label play"  for="btnToggle"><span id="play-pause">Play / Stop</span></label>
+
+					<!-- <a href="#" id="play-pause" class="play">Escuchanos</a> -->
+
+
+
+
+
+					<a href="#popup-optin">Programacion</a>
+	
+					
+					
+				</div>
+
+	
+
+							
+
+
+
+
+
+
+
+
+
+
+		</div>
+
+
+
+		<p class="banner"> NUESTRA APP<a href="https://play.google.com/store/apps/details?id=wseemann.media.brisa&hl=es_AR&gl=US" target="_blank" rel="noopener"><img src="./imagenes/playstore.png" alt=""></a>
+		</p>
+		<p class="banner"> NUESTRO Whatsaap<a href="https://api.whatsapp.com/send?phone=1128088888&text=Hola,%20buenos%20d%C3%ADas..." target="_blank" rel="noopener"><img src="./imagenes/whatsaap.png" alt=""></a>
+		</p>
+
+		<p class="banner"> NUESTRO Instagram<a href="#"><img src="./imagenes/instagram.png" alt=""></a>
+		</p>
+
+		
+		<!-- inicio desplegables -->
+		  
+		<div class="bg-overlay" id="popup-optin">
+			<div class="subscribe-optin">
+				<h2>Programacion Semanal</h2>
+	
+				<!-- inicio tabla -->
+				<div STYLE=" height: 700px; width: 1200px; font-size: 12px; overflow:scroll;">
+					
+					
+					aqui va la tabla
+	
+					<div class="box_tabla">
+						<table class="tabla">
+							<thead>
+								<tr>
+								<th>Hora</th>
+									<th>Lunes</th>
+									<th>Martes</th>
+									<th>Miercoles</th>
+									<th>Jueves</th>
+									<th>Viernes</th>
+									<th>Sabado</th>
+									<th>Domingo </th>
+								</tr>
+							   </thead>
+							
+							  <tbody>	
+								
+								<tr>
+									<td>07:00</td>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+								</tr>
+								<tr>
+									<td>08:00</td>
+									<td>ciclo de medictaciones. Encuentro de 3 minutos conmigo mismo</td>
+									<td>ciclo de medictaciones. Encuentro de 3 minutos conmigo mismo</td>
+									<td>ciclo de medictaciones. Encuentro de 3 minutos conmigo mismo</td>
+									<td>ciclo de medictaciones. Encuentro de 3 minutos conmigo mismo</td>
+									<td>ciclo de medictaciones. Encuentro de 3 minutos conmigo mismo</td>
+									<td>ciclo de medictaciones. Encuentro de 3 minutos conmigo mismo</td>
+									<td>ciclo de medictaciones. Encuentro de 3 minutos conmigo mismo</td>
+								</tr>
+								<tr>
+									<td>09:00</td>
+									<td>La buena noticia</td>
+									<td>Ecotips</td>
+									<td>La buena noticia</td>
+									<td>Sabias qué?</td>
+									<td>La buena noticia</td>
+									<td>Ecotips</td>
+									<td></td>
+								</tr>
+								<tr>
+									<td>10:00</td>
+									<td>Momento ping pong</td>
+									<td>Salud en Movimiento</td>
+									<td>La música cura</td>
+									<td>Historia de Enfermeros latinoamericanos</td>
+									<td>Momento ping pong</td>
+									<td>Sabias qué?</td>
+									<td>La buena noticia</td>
+								</tr>
+								<tr>
+									<td>11:00</td>
+									<td>Ecotips</td>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+								</tr>
+								<tr>
+									<td>12:00</td>
+									<td>Sabores Naturales</td>
+									<td></td>
+									<td>Sabores Naturales</td>
+									<td></td>
+									<td>Sabores Naturales </td>
+									<td></td>
+									<td></td>
+								</tr>
+								<tr>
+									<td>13:00</td>
+									<td>Sabias qué?</td>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td>Ecotips</td>
+									<td></td>
+								</tr>
+								<tr>
+									<td>14:00</td>
+									<td></td>
+									<td>Momento ping pong</td>
+									<td></td>
+									<td>Momento ping pong</td>
+									<td></td>
+									<td></td>
+									<td>Sabias qué?</td>
+								</tr>
+								<tr>
+									<td>15:00</td>
+									<td></td>
+									<td>Historia de Enfermeros latinoamericanos</td>
+									<td></td>
+									<td>Salud en Movimiento</td>
+									<td>Pensa en Wellness</td>
+									<td>Plan B</td>
+									<td>Plan B</td>
+								</tr>
+								<tr>
+									<td>16:00</td>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td>Sabias qué?</td>
+								</tr>
+								<tr>
+									<td>17:00</td>
+									<td>Momento ping pong</td>
+									<td>Sabias qué?</td>
+									<td></td>
+									<td>Ecotips</td>
+									<td>Momento ping pong</td>
+									<td></td>
+									<td></td>
+								</tr>
+								<tr>
+									<td>18:00</td>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td>Hotel Las Vegas</td>
+									<td>Hotel Las Vegas</td>
+								</tr>
+								<tr>
+									<td>19:00</td>
+									<td>Plan B</td>
+									<td>Plan B</td>
+									<td>Plan B</td>
+									<td>Plan B</td>
+									<td>Plan B</td>
+									<td></td>
+									<td>Ecotips</td>
+								</tr>
+								<tr>
+									<td>20:00</td>
+									<td>ciclo de medictaciones. Encuentro de 3 minutos conmigo mismo&quot;</td>
+									<td>ciclo de medictaciones. Encuentro de 3 minutos conmigo mismo&quot;</td>
+									<td>ciclo de medictaciones. Encuentro de 3 minutos conmigo mismo&quot;</td>
+									<td>ciclo de medictaciones. Encuentro de 3 minutos conmigo mismo&quot;</td>
+									<td>ciclo de medictaciones. Encuentro de 3 minutos conmigo mismo&quot;</td>
+									<td>ciclo de medictaciones. Encuentro de 3 minutos conmigo mismo&quot;</td>
+									<td>ciclo de medictaciones. Encuentro de 3 minutos conmigo mismo&quot;</td>
+								</tr>
+								<tr>
+									<td></td>
+									<td>Hotel Las Vegas</td>
+									<td>Hotel Las Vegas</td>
+									<td>Hotel Las Vegas</td>
+									<td>Hotel Las Vegas</td>
+									<td>Hotel Las Vegas</td>
+									<td></td>
+									<td></td>
+			
+								</tr>
+							
+							  </tbody>
+							</table>
+			
+			
+			
+			
+			
+			
+			
+			
+			
+					</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+				
+				</div>			
+				
+				
+				
+				
+				<a href="#" class="optin-close">X</a>
+			</div>
+		</div>
+		
+		
+
+
+	</div>
+	
+	
+
+	</div>
+	
+
+
+	<div class="contenedor7" id="grilla">
+		
+		
+	<div class="marco" id="box_mc7">
+		<h1>GRILLA</h1>
+		<p><img src="#" alt="">
+
+			
+
+
+
+		</p>
+			<!-- inicio tabla -->
+			
+		<div class="box_tabla">
+			<table class="tabla">
+				<thead>
+					<tr>
+					<th>Hora</th>
+						<th>Lunes</th>
+						<th>Martes</th>
+						<th>Miercoles</th>
+						<th>Jueves</th>
+						<th>Viernes</th>
+						<th>Sabado</th>
+						<th>Domingo </th>
+					</tr>
+				   </thead>
+				
+				  <tbody>	
+					
+					<tr>
+						<td>07:00</td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>08:00</td>
+						<td>ciclo de medictaciones. Encuentro de 3 minutos conmigo mismo</td>
+						<td>ciclo de medictaciones. Encuentro de 3 minutos conmigo mismo</td>
+						<td>ciclo de medictaciones. Encuentro de 3 minutos conmigo mismo</td>
+						<td>ciclo de medictaciones. Encuentro de 3 minutos conmigo mismo</td>
+						<td>ciclo de medictaciones. Encuentro de 3 minutos conmigo mismo</td>
+						<td>ciclo de medictaciones. Encuentro de 3 minutos conmigo mismo</td>
+						<td>ciclo de medictaciones. Encuentro de 3 minutos conmigo mismo</td>
+					</tr>
+					<tr>
+						<td>09:00</td>
+						<td>La buena noticia</td>
+						<td>Ecotips</td>
+						<td>La buena noticia</td>
+						<td>Sabias qué?</td>
+						<td>La buena noticia</td>
+						<td>Ecotips</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>10:00</td>
+						<td>Momento ping pong</td>
+						<td>Salud en Movimiento</td>
+						<td>La música cura</td>
+						<td>Historia de Enfermeros latinoamericanos</td>
+						<td>Momento ping pong</td>
+						<td>Sabias qué?</td>
+						<td>La buena noticia</td>
+					</tr>
+					<tr>
+						<td>11:00</td>
+						<td>Ecotips</td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>12:00</td>
+						<td>Sabores Naturales</td>
+						<td></td>
+						<td>Sabores Naturales</td>
+						<td></td>
+						<td>Sabores Naturales </td>
+						<td></td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>13:00</td>
+						<td>Sabias qué?</td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td>Ecotips</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>14:00</td>
+						<td></td>
+						<td>Momento ping pong</td>
+						<td></td>
+						<td>Momento ping pong</td>
+						<td></td>
+						<td></td>
+						<td>Sabias qué?</td>
+					</tr>
+					<tr>
+						<td>15:00</td>
+						<td></td>
+						<td>Historia de Enfermeros latinoamericanos</td>
+						<td></td>
+						<td>Salud en Movimiento</td>
+						<td>Pensa en Wellness</td>
+						<td>Plan B</td>
+						<td>Plan B</td>
+					</tr>
+					<tr>
+						<td>16:00</td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td>Sabias qué?</td>
+					</tr>
+					<tr>
+						<td>17:00</td>
+						<td>Momento ping pong</td>
+						<td>Sabias qué?</td>
+						<td></td>
+						<td>Ecotips</td>
+						<td>Momento ping pong</td>
+						<td></td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>18:00</td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td>Hotel Las Vegas</td>
+						<td>Hotel Las Vegas</td>
+					</tr>
+					<tr>
+						<td>19:00</td>
+						<td>Plan B</td>
+						<td>Plan B</td>
+						<td>Plan B</td>
+						<td>Plan B</td>
+						<td>Plan B</td>
+						<td></td>
+						<td>Ecotips</td>
+					</tr>
+					<tr>
+						<td>20:00</td>
+						<td>ciclo de medictaciones. Encuentro de 3 minutos conmigo mismo&quot;</td>
+						<td>ciclo de medictaciones. Encuentro de 3 minutos conmigo mismo&quot;</td>
+						<td>ciclo de medictaciones. Encuentro de 3 minutos conmigo mismo&quot;</td>
+						<td>ciclo de medictaciones. Encuentro de 3 minutos conmigo mismo&quot;</td>
+						<td>ciclo de medictaciones. Encuentro de 3 minutos conmigo mismo&quot;</td>
+						<td>ciclo de medictaciones. Encuentro de 3 minutos conmigo mismo&quot;</td>
+						<td>ciclo de medictaciones. Encuentro de 3 minutos conmigo mismo&quot;</td>
+					</tr>
+					<tr>
+						<td></td>
+						<td>Hotel Las Vegas</td>
+						<td>Hotel Las Vegas</td>
+						<td>Hotel Las Vegas</td>
+						<td>Hotel Las Vegas</td>
+						<td>Hotel Las Vegas</td>
+						<td></td>
+						<td></td>
+
+					</tr>
+				
+				  </tbody>
+				</table>
+
+
+
+
+
+
+
+
+
+		</div>
+
+	</div>
+
+
+	</div>
+
+
+
+
+
+
+
+
+
+	<div class="contenedor2" id="nosotros">
+		
+
+		
+
+	<div class="marco" id="box_mc2">
+		<h1>ACERCA DE NOSOTROS</h1>
+	<p>
+	Activa desde 2019, Radio Brisa es la primera emisora de radio online hecha para y por el personal de Enfermería.
+
+	Somos un equipo conformado por enfermeros y entusiastas del mundo de la salud. Queremos darles el poder de la palabra con el fin último de crear una red de enfermeros latinoamericanos: formar una comunidad virtual de la que puedan sentirse parte y participar activamente. Nuestro lema es “La Voz de los Enfermeros”.
+	
+	Brindamos contenido relacionado con el mundo de la salud con orientación a la enfermería: entrevistas a expertos en materia de bienestar, tips ecológicos, noticias de salud, difusión de campañas, notas de cultura y música de alta calidad. Deseamos llegar no sólo a los oídos de enfermeros y estudiantes de la carrera, sino también a los del resto de la comunidad para transmitirles los valores de esta noble profesión.
+	
+	Radio Brisa es una iniciativa de Brisa Enfermeros. Escuchanos todos los días, a toda hora, ¡en todo lugar!
+	</p>
+
+</div>	
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+	</div>
+
+	<div class="contenedor3" id="programas">
+		
+		<div class="marco">
+			<h1>PROGRAMAS</h1>
+		<p>		</p>
+
+		
+
+
+
+			<!-- inicio estilo grid responsivo -->
+
+			
+			<div class="container" id="container">
+				<div class="box" id="uno">
+					<div class="textbox">
+					<h2>Programa 1</h2><p>loren lipsum bla bla</p>
+					<span class="top"></span>
+					<span class="right"></span>
+					<span class="bottom"></span>
+					<span class="left"></span>
+				
+				</div></div>
+
+				<div class="box" id="dos">
+					<div class="textbox">
+						<h2>Programa 2</h2><p>loren lipsum bla bla</p></div></div>
+
+
+				<div class="box" id="tres">
+					<div class="textbox">
+						<h2>Programa 3</h2><p>loren lipsum bla bla</p></div></div>
+
+				<div class="box" id="cuatro">
+					<div class="textbox">
+						<h2>Programa 4</h2><p>loren lipsum bla bla</p></div></div>
+
+				<div class="box" id="cinco">
+					<div class="textbox">
+						<h2>Programa 5</h2><p>loren lipsum bla bla</p></div></div>
+
+				<div class="box" id="seis">
+					<div class="textbox">
+						<h2>Programa 6</h2><p>loren lipsum bla bla</p></div></div>
+
+				<div class="box" id="siete">
+					<div class="textbox">
+						<h2>Programa 7</h2><p>loren lipsum bla bla</p></div></div>
+
+				<div class="box" id="ocho">
+					<div class="textbox">
+						<h2>Programa 8</h2><p>loren lipsum bla bla</p></div></div>
+
+				 <div class="box" id="nueve">
+					<div class="textbox">
+						<h2>Programa 9</h2><p>loren lipsum bla bla</p></div></div>
+
+				<div class="box" id="diez">
+					<div class="textbox">
+						<h2>Programa 10</h2><p>loren lipsum bla bla</p></div></div>
+
+				<div class="box" id="once">
+					<div class="textbox">
+						<h2>Programa 11</h2><p>loren lipsum bla bla</p></div></div>
+
+				<div class="box" id="doce">
+					<div class="textbox">
+						<h2>Programa 12</h2><p>loren lipsum bla bla</p></div></div>
+
+				<div class="box" id="trece">
+					<div class="textbox">
+						<h2>Programa 13</h2><p>loren lipsum bla bla</p></div></div>
+
+				<div class="box" id="catorce">
+					<div class="textbox">
+						<h2>Programa 14</h2><p>loren lipsum bla bla</p></div></div>
+
+				<div class="box" id="quince">
+					<div class="textbox">
+						<h2>Programa 15</h2><p>loren lipsum bla bla</p></div></div>
+
+				<div class="box" id="dieciseis">
+					<div class="textbox">
+						<h2>Programa 16</h2><p>loren lipsum bla bla</p></div></div>
+
+				<div class="box" id="diecisiete">
+					<div class="textbox">
+						<h2>Programa 17</h2><p>loren lipsum bla bla</p></div></div>
+				
+				
+			  </div>
+
+
+
+
+
+
+
+
+		</div>
+
+
+
+
+
+
+
+
+
+
+
+
+	</div>
+
+	<div class="contenedor4" id="podcast">
+		
+		<div class="marco" id="box_mc4">
+			<h1>PODCAST</h1>
+			<p>
+		
+		
+		
+		
+		
+			</p>
+		</div>
+
+	</div>
+
+	
+
+	<div class="contenedor5" id="entrevistasyvideos">
+		
+		<div class="marco" id="box_mc5">
+			<h1>ENTREVISTAS Y VIDEOS</h1>
+			<p>
+
+					
+
+
+
+
+
+
+			</p>
+
+
+
+		</div>
+
+
+	</div>
+
+	<div class="contenedor6" id="contacto">
+		
+		<div class="marco" id="box_mc6">
+			<h1>CONTACTO</h1>
+			<p><img src="./imagenes/contacto.png" alt="">
+
+			
+
+
+
+			</p>
+
+			<div class="contain">
+
+			<div class="wrapper">
+		  
+			  <div class="form">
+				<h3>TENES PREGUNTAS O CONSULTAS</h3>
+				<h2 class="form-headline">Envianos tu mensaje</h2>
+				<form id="submit-form" action="">
+				  <p>
+					<input id="name" class="form-input" type="text" placeholder="Tu Nombre*">
+					<small class="name-error"></small>
+				  </p>
+				  <p>
+					<input id="apellido" class="form-input" type="text" placeholder="Tu Apellido*">
+					<small class="name-error"></small>
+				  </p>
+				  <p class="full-width">
+					<input id="email" class="form-input" type="email" placeholder="Tu correo*" required>
+					<small></small>
+				  </p>
+				  <p class="full-width">
+					<textarea  minlength="20" id="message" cols="30" rows="7" placeholder="Tu Mensaje*" required></textarea>
+					<small></small>
+				  </p>
+				  <p class="full-width">
+					<input type="checkbox" id="checkbox" name="checkbox" checked> Si, me gustaria recibir comunicaciones por telefono / email de la radio.
+				  </p>
+				  <p class="full-width">
+					<input type="submit" class="submit-btn" value="Enviar" onclick="checkValidations()">
+					<button class="reset-btn" onclick="reset()">Reset</button>
+				  </p>
+				</form>
+			  </div>
+		  
+			  <div class="contacts contact-wrapper">
+				<h2 class="form-headline">Datos de Contacto</h2>
+				<ul>
+				  <li>Te brindamos nuestra informacion de contacto</li>
+				  <span class="hightlight-contact-info">
+					<li><h3>Direccion: leando N. Alem 110 Piso 10</h3></li>
+					<li class="email-info"><i class="fa fa-envelope" aria-hidden="true"></i> info@xxxx.com</li>
+					<li><i class="fa fa-phone" aria-hidden="true"></i> <span class="highlight-text">+54 xx xxxx xxxx</span></li>
+				  </span>
+				</ul>
+			  </div>
+			</div>
+		  </div>
+
+
+
+
+
+
+
+
+
+
+		</div>
+
+
+
+	</div>
+
+
+	
+
+
+
+
+
+
+
+</section>
+
+
+
+
+<!--      inicio pie  -->
+    
+<footer class="pie">
+	<div id="footer">
+<div id="utility-links">
+
+<div class="help">
+<ul>
+<h3 class="left">Necesitas contactaros?</h3>
+<li><p> Via correo o Via Telefono</p></li>
+<li><p></p></li>
+<li><img class="help-img-icon" width="18" height="14" src="https://res.cloudinary.com/cloudinary-account/image/upload/v1469462241/msg_jn0whe.svg"</img><a href="#">Email</a></li>
+<li><img class="help-img-icon" width="15" height="15" src="https://res.cloudinary.com/cloudinary-account/image/upload/v1469462243/phone_zfj4ey.svg"</img><a href="https://api.whatsapp.com/send?phone=1128088888&text=Hola,%20buenos%20d%C3%ADas..." target="_blank" rel="noopener">+54-11-28088888</a></li>
+</ul>
+</div>
+
+
+<div class="rectangle"></div>
+
+<div class="about">
+   <ul>
+	 <h3 class="left">Acerca de Nosotros</h3>
+	 <li><a href="#">Nuestra Historia</a></li>
+	 <li><a href="#">Datos Interesantes</a></li>
+  </ul>
+  </div>
+
+<div class="rectangle"></div>
+
+<div class="card">
+   <ul>
+	 <h3 class="left">Paginas Institucionales</h3>
+	 <li><a href="#">Brisa Enfermeros</a></li>
+	 <li><a href="#">Brisa Salud</a></li>
+  </ul>
+</div>
+</div>  
+
+<div id="newsletter-social">  
+<div id="newsletter">
+<h3 class="center">Consigue mas Novedades!</h3>
+<p class="deals"> Suscribete para Anuncios semanales, nuevas Entrevistas, eventos y más</p>
+<form>
+<input type="text" placeholder="Enter email address">
+<input type="submit" value="Sign Up">
+</form>
+</div>  
+
+
+<div id="social">
+<a href="https://facebook.com/academy" target="_blank">
+<img width="34" height="34" src="https://res.cloudinary.com/cloudinary-account/image/upload/v1469457641/facebook_khedl5.svg"></a></img>
+
+<a href="https://twitter.com/academy" target="_blank">
+<img width="34" height="34" src="https://res.cloudinary.com/cloudinary-account/image/upload/v1469457641/twitter_fu5ejk.svg"></a></img>
+
+<a href="hhttps://pinterest.com/academy/" target="_blank">
+<img width="34" height="34" src="https://res.cloudinary.com/cloudinary-account/image/upload/v1469457641/pinterest_kahh1i.svg"></a></img>
+
+<a href="https://www.youtube.com/user/academydotcom" target="_blank">
+<img width="34" height="34" src="https://res.cloudinary.com/cloudinary-account/image/upload/v1469457641/youtube_xrntt3.svg"></a></img>
+
+<a href="http://instagram.com/academy" target="_blank">
+<img width="34" height="34" src="https://res.cloudinary.com/cloudinary-account/image/upload/v1469457641/instagram_ugek0w.svg"></a></img>
+
+</div>  
+</div>  
+
+<div class="rectangle-horiz"></div>
+
+<div id="copyright">
+<ul>
+<li class="copy">© 2023 Radio Brisa. Todos los derechos Reservados.</li>
+
+<!--  <li class="copy">Privacy Policy | Terms + Conditions | Sitemap</li>-->
+
+<li class="copy">Leandro N. Alem 1110 Piso 10 | CABA-Buenos Aires</li>
+
+</div>
+
+</div>
+
+
+
+
+</footer>
+
+	<script src="./navbar.js"></script>
+	<script src="./tabla.js"></script>
+	<script src="./reproductor.js"></script>
+	
+</body>
+
+
+
+
+</html>

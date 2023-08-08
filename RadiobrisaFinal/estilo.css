@@ -1,0 +1,652 @@
+﻿
+  @import url('https://fonts.googleapis.com/css2?family=Cairo+Play:wght@900&family=Contrail+One&family=Dosis:wght@300&family=Lilita+One&family=Lora:ital@1&family=Pacifico&family=Roboto&family=Roboto+Flex:opsz@8..144&display=swap');
+  
+  @import url('https://fonts.googleapis.com/css2?family=Cairo+Play:wght@900&family=Contrail+One&family=Dosis:wght@300&family=Inter+Tight:ital,wght@1,300&family=Lilita+One&family=Lora:ital@1&family=News+Cycle&family=Pacifico&family=Passion+One&family=Roboto&family=Roboto+Flex:opsz@8..144&display=swap');
+  
+  
+  @import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Cairo+Play:wght@900&family=Contrail+One&family=Dosis:wght@300&family=Faster+One&family=Inter+Tight:ital,wght@1,300&family=Lilita+One&family=Lora:ital@1&family=News+Cycle&family=Pacifico&family=Passion+One&family=REM:wght@600&family=Roboto&family=Roboto+Flex:opsz@8..144&display=swap');
+
+
+
+  
+  @import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Cairo+Play:wght@900&family=Contrail+One&family=Dosis:wght@300&family=Faster+One&family=Francois+One&family=Inter+Tight:ital,wght@1,300&family=Lilita+One&family=Lora:ital@1&family=News+Cycle&family=Pacifico&family=Passion+One&family=Plus+Jakarta+Sans:wght@700&family=REM:wght@600&family=Roboto&family=Roboto+Flex:opsz@8..144&display=swap');
+
+
+  @import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
+
+/* aqui con este sector * al inicio puedo establecer valores por defecto universal para toda la hoja ejemplo el estilo  de texto, etc */
+
+*{                  /* se recomienda agragar esto al principio para resetar valores a 0 antes de empezar a colocar estilos a la hoja */   
+	 margin:0;
+	 padding: 0;
+	 list-style:none;
+	 font-family: Arial, Georgia, sans-serif;
+	 box-sizing: border-box;
+ }
+
+ html{
+	scroll-behavior:smooth;
+}
+
+section{
+	scroll-snap-align:start;
+	scroll-snap-stop: always;
+	
+	
+	justify-content: center;
+	display: flex;
+	flex-direction: column;
+	
+	
+}
+
+
+.contenedor1{
+	width: 100%;
+        
+        background-color:#FAF9F9;
+        position: relative;
+        padding: 20px;
+		height: 1000px;
+		background-image: url(./imagenes/fondo_radio2.jpg);
+		background-size:cover;
+		background-repeat: no-repeat;
+		padding-top: 200px;
+		
+}
+
+
+.banner{
+	width: 150px;
+	
+
+}
+
+
+
+.banner img{
+	
+	width: 70px;
+	border-radius: 7px;
+	margin-top: 20px;
+	margin:0 auto;
+	position: relative;
+	display: block;
+	
+	transition-duration: .5s;
+	
+	transform: rotateX(0deg);
+	transition: ease-in-out 600ms;
+}
+.banner{
+	
+	display: inline-flex;
+
+	
+	justify-content: left;
+	background-color: transparent;
+	position:relative;
+	
+	margin-top: 50px;
+	font-family: 'Roboto Mono';
+	font-size: 15px;
+	text-align: center;
+	font-weight: 600;
+	color: #fff;
+	
+	
+	
+	
+	
+	
+}
+
+.banner img:hover{
+	transform: rotateX(180deg);
+	
+	
+
+	
+	
+}
+
+
+
+
+
+
+
+
+
+.contenedor2{
+	width: 100%;
+        
+        background-color:#FAF9F9;
+        position: relative;
+		
+        height: 900px;
+		display: flex;
+		justify-content: center;
+	
+		
+		
+
+		
+		
+	
+		
+}
+
+.contenedor2 h1{
+	font-family: 'Francois One', sans-serif;
+	font-size:50px;
+	text-align: center;
+
+	color: #fff;
+	
+	width: 100%;
+	
+}
+
+
+
+.contenedor2 p {
+
+	font-family: 'Francois One', sans-serif;
+	font-size: 25px;
+	padding: 50px 80px;
+	color: black;
+	
+	
+	display: flex;
+	justify-content: center;
+	
+	
+} 
+
+
+
+
+
+
+.contenedor3{
+	width: 100%;
+        
+        background-color :#FAF9F9;
+        position: relative;
+       
+		height: auto;
+		display: flex;
+		justify-content: center;
+		
+}
+
+.contenedor3 h1{
+	font-family: 'Francois One', sans-serif;
+	font-size:60px;
+	text-align: center;
+	
+	color: #fff;
+	background-color: #349B87;
+	width: 100%;
+}
+
+.contenedor3 img{
+
+	width: 450px;
+	float: left;
+	
+
+}
+
+
+
+
+
+.contenedor4{
+	width: 100%;
+       
+    
+        background-color :#FAF9F9;
+        position: relative;
+       
+		height: auto;
+		display: flex;
+		justify-content: center;
+}
+
+.contenedor4 h1{
+	font-family: 'Francois One', sans-serif;
+	font-size:60px;
+	text-align: center;
+	
+	color: #fff;
+	
+	
+}
+
+
+
+
+
+
+
+.contenedor5{
+	width: 100%;
+       
+	background-color: #FAF9F9;
+        position: relative;
+       
+		height: auto;
+		display: flex;
+		justify-content: center;
+		
+}
+
+.contenedor5 h1{
+	font-family: 'Francois One', sans-serif;
+	font-size:60px;
+	text-align: center;
+	
+	color: black;
+
+	
+	width: 100%;
+	
+	
+}
+
+.contenedor5 img{
+
+		width: 450px;
+		float: left;
+
+
+}
+
+
+.contenedor5 p{
+
+	font-family: 'Inter Tight', sans-serif;
+	font-size: 25px;
+	padding: 50px;
+	color: black;
+	margin: 50px 15px;
+
+
+
+
+}
+
+
+
+
+
+.contenedor6{
+	width: 100%;
+       
+        background-color :#FAF9F9;
+		position: relative;
+        
+		height: auto;
+		display: flex;
+		justify-content: center;
+		
+}
+
+.contenedor6 h1{
+	font-family: 'Francois One', sans-serif;
+	font-size:60px;
+	text-align: center;
+	
+	color: white;
+	
+	width: 100%;
+	
+	
+}
+
+.contenedor6 img{
+		width: 450px;
+		float: left;
+		
+
+}
+
+
+
+.contenedor7{
+	width: 100%;
+	background-color: #fff;
+	position: relative;
+	
+	height: 900px;
+	display: flex;
+		justify-content: center;
+}
+
+.contenedor7 h1{
+	font-family: 'Francois One', sans-serif;
+	font-size:60px;
+	text-align: center;
+	
+	color: black;
+	
+	width: 100%;
+
+	
+	
+}
+
+
+
+
+
+
+/* inicio stylo principal */
+.Principal{
+    position: relative;
+    overflow: hidden;
+    
+    height: 100vh;
+   
+    
+}
+
+.contenedor-P{
+    position: relative;
+    background: transparent;
+    max-width: 900px;
+	height: auto;
+	margin: auto 0;
+    
+    
+}
+
+.contenedor-P h1{
+    
+    font-size: 56px;
+    font-weight: 700;
+    color: white;
+    line-height: 1.2;
+}
+
+.contenedor-P h3{
+    
+    font-size: 32px;
+    font-weight: 700;
+    color: #00abf0;
+}
+
+.contenedor-P p{
+    
+    font-size: 16px;
+    color: white;
+    
+    margin: 20px 0 40px;
+    
+}
+
+.contenedor-P .Botonera{
+    
+    width: 370px;
+    height: 50px;
+    background: trasparent;
+    
+    
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+    
+}
+
+.Botonera a{
+    
+    position: relative;
+    
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+    width: 170px;
+    height: 100%;
+    background: cyan;
+    border: 2px solid cyan;
+    border-radius: 7px;
+    font-size: 19px;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 1px;
+    z-index: 1;
+    overflow: hidden;
+    transition: .5s;
+    
+    
+}
+
+
+.Botonera a:hover{
+    color:cyan;
+}
+
+
+
+.Botonera a:nth-child(2){
+    
+    background: transparent;
+    color:cyan;
+}
+    
+
+
+
+
+
+  
+
+.Botonera a::before{
+    
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 100%;
+    background: #1b425f;
+    z-index: -1;
+    transition: .5s;
+    top:0;
+    left: 0;
+    
+    
+}
+
+.Botonera a:hover::before{
+    
+    width: 100%;
+}
+
+
+
+.Botonera a:nth-child(2)::before{
+    
+    background: cyan;
+}
+
+
+.Botonera a:nth-child(2):hover{
+    
+    color:white;
+
+	
+ 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* inicio botton play/stop */
+
+.btn-select {
+	display: none;
+  }
+  
+  .btn-label {
+	border-radius: 3px;
+	padding: 5px 10px;
+	overflow: hidden;
+	text-indent: -9999em;
+  }
+  
+  .btn-select + .btn-label {
+	cursor: pointer;
+	position: relative;
+	width: 200px;
+	height: 50px;
+	border-radius:7px;
+  }
+  
+  .btn-select + .btn-label::before {
+  
+	background: green;
+	bottom: 0;
+	content: "Escuchanos";
+	color: #fff;
+	position: absolute;
+	text-align: center;
+	top: 0;
+	right: 0;
+	left: 0;
+	text-indent: -15px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	transition: background-color 0.25s linear;
+	
+
+  }
+	
+
+
+
+
+
+
+  
+  
+  .btn-select + .btn-label span {
+	position: absolute;
+	display: block;
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+  
+	&::after,
+	&::before {
+	  content: "";
+	  width: 0;
+	  height: 0;
+	  border: 7px solid transparent;
+	  border-left: 13px solid #fff;
+	  display: block;
+	  position: absolute;
+	  right: 0;
+	 
+	  top: 50%;
+	  transform: translate(-22px, -6px);
+	  transition: transform 0.25s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+	   } 
+  
+	&::after {
+	  border: 6px solid #fff;
+	  transform: translate(-29px, 300%);
+	}
+  }
+  
+  .btn-select:checked + .btn-label span::before {
+	transform: translate(-22px, -300%);
+  }
+  
+  .btn-select:checked + .btn-label span::after {
+	transform: translate(-29px, -5px);
+  }
+  
+  .btn-select:checked + .btn-label::before {
+	background: red;
+	content: "Stop";
+	position: absolute;
+	width: 100%;
+  }
+  
+
+
+
+/* inicio estilo marcos */
+
+.marco{
+	margin:10px;
+    display:flex;
+	flex-wrap: wrap;
+   justify-content: center;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.3);
+    max-width: 97%;
+	padding-bottom: 50px;
+	
+	position: relative;
+	
+	text-align: center;
+
+
+	/* border: 0.35rem solid;
+	
+	border-image: conic-gradient(from var(--angle), var(--c2), var(--c1) 0.1turn, var(--c1) 0.15turn, var(--c2) 0.25turn) 30;
+	animation: borderRotate var(--d) linear infinite forwards;
+	 */
+  }
+  
+  #box_mc2{
+	background-image: url("./imagenes/NOSOTROS2.jpg");
+	background-size: cover;
+	}
+
+	#box_mc4{
+		background-image: url("./imagenes/podcast.jpg");
+		background-size: cover;
+		width: 100%;
+		height: 900px;
+		}
+
+
+		#box_mc5{
+			background-image: url("./imagenes/entrevistas2.jpg");
+			background-size: cover;
+			width: 100%;
+			height: 900px;
+			}	
+
+
+			#box_mc6{
+				background-color:#C6D7FF;
+				
+				width: 100%;
+				
+				}	
+		
+
+
+	
+		#box_mc7{
+			background-image: url("./imagenes/programas.jpg");
+			background-size: cover;
+			width: 100%;
+			height: 900px;
+			}	

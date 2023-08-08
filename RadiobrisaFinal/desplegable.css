@@ -1,0 +1,104 @@
+$dark: #1d1d1b;
+$light: #c7c7c7;
+$text-light: #706f6f;
+
+body {
+	position: fixed;
+    display: block;
+    width: 100%;
+    
+}
+
+.bg-overlay {
+	position:fixed;
+    display: block;
+	z-index: 998;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: rgba(0,0, 0, .7);
+	width: 100%;
+	height: 100%;
+	transition: opacity 500ms;
+	visibility: hidden;
+	opacity: 0;
+    overflow: hidden;
+    
+    
+    
+
+	&:target {
+		visibility: visible;
+		opacity: 1;
+	}
+}
+
+.subscribe-optin {
+	position: relative;
+	z-index: 999;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	padding: 3rem;
+	width: 90%;
+	height: auto;
+	background: #fff;
+	border-radius: 5px;
+	text-transform: uppercase;
+	font-size: .8rem;
+    overflow: hidden;
+
+	h2 {
+		padding: 1rem 0;
+	}
+
+	.optin-close {
+		position: relative;
+       
+		top: 1rem;
+		right: 1rem;
+		z-index: 1999;
+		color: black;
+		font-size: 50px;
+		text-decoration: none;
+        
+       
+
+		&:hover {
+			color: $light;
+			transition: color 500ms ease;
+		}
+	}
+
+
+		input {
+			display: inline-block;
+			padding: .5rem 1rem;
+			outline: none;
+			border: 1px solid $dark;
+			text-transform: uppercase;
+		}
+
+		input[type=text],
+		input[type=email] {
+			padding: .5rem 1rem;
+			width: 70%;
+		}
+
+		input[type=submit] {
+			background: $dark;
+			color: $light;
+
+			&:hover {
+				background: $light;
+				color: $dark;
+				transition: all 500ms;
+			}
+
+			&:active {
+				box-shadow: inset 2px 2px 2px 0 $dark;
+			}
+		}
+	}
+}
